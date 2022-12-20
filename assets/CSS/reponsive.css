@@ -1,0 +1,33 @@
+/* moblie and table */
+@media(max-width : 1023){
+
+}
+
+
+/* mobile */
+@media (max-width : 739px) {
+    #nav{
+        display: none;
+    }
+    #slider{
+        margin: 48px 8px 0;
+    }
+
+    .container-slider{
+        flex-direction: column;
+    }
+    #slider .title-wrap, #slider .infor-wrap, #slider .action-wrap{
+        border : none;
+
+    }
+    #content .part-lesson{
+        width: 100%;
+    }
+}
+/* tablet */
+@media (min-width : 740px) and (max-width : 1023px) {
+}
+/* Pc */
+@media(min-width : 1024px) {
+
+}
